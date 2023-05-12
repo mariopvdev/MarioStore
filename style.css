@@ -1,0 +1,96 @@
+@font-face {
+    font-family: fuenteTitulo;
+    src: url("fuentes/Rajdhani-SemiBold.ttf");
+}
+@font-face {
+    font-family: fuenteSubtitulo;
+    src: url("fuentes/Rajdhani-Medium.ttf");
+}
+@font-face {
+    font-family: fuenteTexto;
+    src: url("fuentes/Rajdhani-Regular.ttf");
+}
+body {
+    color: black;
+	margin: 0;
+	padding: 0;
+	font-family: 'Times New Roman', Times, serif;
+    background-image: url("/img/fondo.jpg");
+    background-size: cover;
+	background-repeat: no-repeat;
+}
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+}
+.title {
+    color: #013440;
+    font-family: fuenteTitulo;
+	text-align: center;   
+	font-size: 36px;
+	margin-top: 20px;
+}
+.subtitle {
+	color: #b8aea9;
+    font-family: fuenteSubtitulo;
+	text-align: center;
+	font-size: 24px;
+	margin-top: 10px;
+}
+.product {
+	margin-top: 40px;
+	display: inline-block;
+	text-align: center;
+	max-width: 300px;
+	border: 1px solid #dddddd6c;
+	padding: 10px;
+	margin-right: 20px;
+	vertical-align: top;
+}
+.product img {
+	width: 200px;
+	height: 200px;
+	object-fit:contain;
+}
+.product h2 {
+	color: #025159;
+    font-family: fuenteSubtitulo;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.product h3 {
+	color: #659aa6;
+    font-family: fuenteSubtitulo;
+	font-size: 18px;
+	margin-top: -15px;
+}
+.product p {
+    font-family: fuenteTexto;
+	font-size: 15px;
+	margin-top: -10px;
+}
+.product span {
+	color: #013440;
+    font-family: fuenteTexto;
+	font-weight: bold;
+	font-size: 16px;
+	display: block;
+	margin-top: 10px;
+}
+
+footer {
+    color: rgb(150, 146, 146);
+    text-align: center; /* Centrar el contenido */
+    padding: 10px; /* Añadir espacio alrededor del contenido */
+    position: fixed; /* Fijar el footer en la parte inferior de la ventana del navegador */
+    bottom: 0; /* Alinear el footer en la parte inferior de la ventana del navegador */
+    left: 0; /* Alinear el footer en la parte izquierda de la ventana del navegador */
+    right: 0; /* Alinear el footer en la parte derecha de la ventana del navegador */
+}
+
+.description-box {
+    text-align: justify;
+    padding: 5px; /* Añadir espacio alrededor del contenido */
+    margin: -20px 0; /* Margen alrededor del recuadro */
+}
